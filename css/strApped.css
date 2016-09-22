@@ -1,0 +1,94 @@
+﻿#start img
+{
+	text-align:center;
+	float:right;
+	padding-left:.5em;
+	padding-right:1.2em;
+
+}
+
+#coma img
+{
+	text-align:center;
+	float:left;
+	margin-left:0.8em;
+	padding-right:1em;
+
+}
+#quote 
+{
+	text-align:center;
+}
+#emailPic img
+{
+	text-align:center;
+}
+#links ul
+{
+	text-align:center;
+	list-style-type:none;
+	margin-left:-38px;
+}
+#content p
+{
+	text-align:center;
+}
+#workoutS ul 
+{
+	float: left;
+	text-align:center;
+	padding: 0; 
+	width: 100%; 
+	margin: 0;
+	list-style-type: none;
+	margin-left: 3em;
+}
+
+#workoutS a 
+{
+	float:left;
+	width: 7em;
+	text-decoration:none;
+	color: white;
+	background-color:#005dff;
+	padding: 0.2em 0.6em; 
+	border-right: 1px solid white;
+}
+
+#workoutS a:hover 
+{
+    color:white;
+	background-color: #0147c2;
+}
+
+.PDF 
+{
+	text-align:center;
+}
+
+body 
+{       	
+	background-color:white; 
+}
+#map-outer 
+{  
+    height: 440px; 
+	padding: 20px; 	
+	margin-bottom: 20px; 		 
+}
+#map-container 
+{ 
+	height: 400px 
+}
+@media all and (max-width: 991px) 
+{
+	#map-outer  { height: 600px }
+}
+   
+@media all and (min-width: 1182px)
+{
+	#workoutS ul
+	{
+	   margin-left: 8em;
+	}
+}
